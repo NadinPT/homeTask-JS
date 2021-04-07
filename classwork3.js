@@ -114,21 +114,28 @@
 //         // slice
 //         // splice
 
-function ShowConsone() {
-    let str = "Маша привет это я Артем"
-    let arrStr = str.split(" ")
-    console.log(arrStr)
+// function ShowConsone() {
+//     let str = "Маша привет это я Артем"
+//     let arrStr = str.split(" ")
+//     console.log(arrStr)
 
-}
-ShowConsone()
-ShowConsone()
-ShowConsone()
+// }
+// ShowConsone()
+// ShowConsone()
+// ShowConsone()
 
 // это была function dicloration
 
 // let sum=function(){} - function expression
 
 // arrow function
-let func = (a, b, c, d) => {
+// let func = (a, b, c, d) => {
 
-}
+// }
+
+
+let re = /@/gi;
+
+let str = "aaa@bbb@ccc"
+var newstr = str.replace(re, '@');
+console.log(newstr);
