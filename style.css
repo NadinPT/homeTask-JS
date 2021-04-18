@@ -1,1 +1,30 @@
+.border {
+    display: flex;
+    align-items: center;
+    border: 2px dotted #818181;
+}
 
+.btnStyle {
+    height: 21px;
+    margin: 20px;
+}
+
+.inptStyle {
+    height: 17px;
+    margin: 20px;
+}
+
+#ChangeText {
+    width: 200px;
+}
+
+.titleSolveTasks {
+    text-align: center;
+}
+
+.rect {
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    margin: 20px;
+}
