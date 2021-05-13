@@ -263,31 +263,31 @@
 
 // }
 
-let btn = document.querySelector(".btn")
-btn.addEventListener("click", buttonClick)
+// let btn = document.querySelector(".btn")
+// btn.addEventListener("click", buttonClick)
 
-function buttonClick() {
-    let inputHello = document.getElementById('npt')
-    let inputBye = document.getElementById('vel')
+// function buttonClick() {
+//     let inputHello = document.getElementById('npt')
+//     let inputBye = document.getElementById('vel')
 
-    let a = inputBye.value
-    inputBye.value = inputHello.value
-    inputHello.value = a
-
-
-
-}
+//     let a = inputBye.value
+//     inputBye.value = inputHello.value
+//     inputHello.value = a
 
 
 
-let r = 56;
+// }
 
-function showMeRerult(r) {
 
-    // let r = 5
-    return r + 98
 
-}
-console.log(showMeRerult(null))
+// let r = 56;
 
-// console.log(r)
+// function showMeRerult(r) {
+
+//     // let r = 5
+//     return r + 98
+
+// }
+// console.log(showMeRerult(null))
+
+// // console.log(r)
